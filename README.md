@@ -21,9 +21,7 @@ Backend:
 Node.js
 Express.js
 
-Banco de Dados:
-
-Postgres
+Banco de Dados: Postgres
 
 JWT (JSON Web Tokens)
 Instalação e Configuração
