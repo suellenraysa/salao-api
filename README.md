@@ -1,62 +1,64 @@
-Sistema de Gerenciamento de Salão de Beleza
+# Sistema de Gerenciamento de Salão de Beleza
+
 Bem-vindo ao projeto final da faculdade: Sistema de Gerenciamento de Salão de Beleza. Este sistema foi desenvolvido para facilitar a administração de um salão de beleza, incluindo agendamentos, controle de clientes, serviços oferecidos e gerenciamento de funcionários.
 
-Funcionalidades
-Cadastro de Clientes: Permite o registro de novos clientes com informações pessoais e preferências.
-Agendamento de Serviços: Sistema de agendamento para serviços oferecidos pelo salão, permitindo aos clientes marcar horários com facilidade.
-Gerenciamento de Funcionários: Cadastro e gerenciamento de informações dos funcionários, incluindo horários de trabalho e especialidades.
-Controle de Estoque: Monitoramento e gerenciamento do estoque de produtos utilizados no salão.
-Relatórios e Análises: Geração de relatórios sobre o desempenho do salão, frequência de clientes, serviços mais populares, entre outros.
+## Funcionalidades
 
-Tecnologias Utilizadas
-Frontend:
+- **Cadastro de Clientes**: Permite o registro de novos clientes com informações pessoais e preferências.
+- **Agendamento de Serviços**: Sistema de agendamento para serviços oferecidos pelo salão, permitindo aos clientes marcar horários com facilidade.
+- **Gerenciamento de Funcionários**: Cadastro e gerenciamento de informações dos funcionários, incluindo horários de trabalho e especialidades.
+- **Relatórios e Análises**: Geração de relatórios sobre o desempenho do salão, frequência de clientes, serviços mais populares, entre outros.
 
-HTML
-CSS
-TypeScript
-React.js
+## Tecnologias Utilizadas
 
-Backend:
+- **Backend**: 
+  - TypeScript
+  - React.js
+  - Node.js
+  - Express.js
 
-Node.js
-Express.js
+- **Banco de Dados**: 
+  - Postgres
 
-Banco de Dados: Postgres
+- **Autenticação**:
+  - JWT (JSON Web Tokens)
 
-JWT (JSON Web Tokens)
-Instalação e Configuração
+## Instalação e Configuração
+
 Siga os passos abaixo para configurar e executar o projeto localmente:
 
-Clone o repositório:
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/suellenraysa/salao-api.git
+   ```
 
-bash
-Copiar código
-git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/suellenraysa/salao-api.git)
-Navegue até o diretório do projeto:
-cd nome-do-repositorio
+2. **Navegue até o diretório do projeto**:
+   ```bash
+   cd salao-api
+   ```
 
-Instale as dependências do backend:
+3. **Instale as dependências do frontend**:
+   ```bash
+   cd ../frontend
+   npm install
+   npm install yarn
+   npm install express
+   ```
 
-bash
-cd backend
-npm install
-npm install yarn
-npm install express
+6. **Inicie o servidor frontend**:
+   ```bash
+   npm start
+   ```
 
-Inicie o servidor backend:
-
-bash
-yarn start
-
-Configuração do Banco de Dados:
-
-Certifique-se de ter o Postgres está instalado e rodando em sua máquina.
-Crie um arquivo .env no diretório backend e adicione a string de conexão do MongoDB:
-Autenticação:
-DB_HOST=localhost
-DB_DATABASE=BeautyHair
-DB_USER=postgres
-DB_PASSWORD=123456
+7. **Configuração do Banco de Dados**:
+   - Verifique de ter o Postgres instalado e rodando em sua máquina.
+   - Crie um arquivo `.env` no diretório `backend` e adicione a string de conexão do Postgres:
+     ```
+     DB_HOST=localhost
+     DB_DATABASE=BeautyHair
+     DB_USER=postgres
+     DB_PASSWORD=123456
+     ```
 
 
-Esse projeto precisa no Front End para ser visualizado: https://github.com/suellenraysa/salao-web.git
+8. **Esse projeto precisa no Front End para ser visualizado: https://github.com/suellenraysa/salao-web.git**
